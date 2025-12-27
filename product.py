@@ -1,5 +1,7 @@
 import math
-nums = (4, 3, 2, 2, -1, 18)
-product = math.prod(nums)
-print("Original Tuple:", nums)
-print("Product - multiplying all numbers:", product)
+tup1=(4,3,2,2,-1,18)
+tup2=(2,4,8,8,3,2,9)
+product = math.prod(tup1)
+product2=math.prod(tup2)
+print("the product of tup1 is",product)
+print("the product of tup2 is",product2)
